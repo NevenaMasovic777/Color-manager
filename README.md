@@ -2,10 +2,14 @@
 
 1. **Prerequisites**: Node.js version 18+ or 20+
 
-2. **Getting Started**: git clone and cd to color-manager folder
+2. **Getting Started**: clone project from git repository
 
 3. **Running the Application**:
+
+   SERVER
+
    To run server, stay in the root folder and:
+
    1. run npm install
    2. npm run dev
 
@@ -19,7 +23,9 @@
   Any changes made by the application (e.g., adding or removing data) are saved back to the data.json file.
   If you need to reset or modify the data, you can manually edit the _data.json_ file.
 
-  To run frontend application, go to /frontend folder and:
+  FRONTEND APPLICATION
+
+  To run frontend application, move to /frontend folder and:
 
   1.  run npm install
   2.  npm run dev

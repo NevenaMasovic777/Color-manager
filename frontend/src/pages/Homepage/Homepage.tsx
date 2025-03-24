@@ -42,9 +42,13 @@ export default function Homepage() {
         />
       </div>
       {!filteredColors.length && (
-        <div className="flex justify-center p-4 mt-4">
-          <p className="text-lg font-semibold text-purple-800 flex items-center gap-2">
+        <div className="flex flex-col items-center justify-center p-4 mt-4">
+          <p className="text-lg font-semibold text-purple-800">
             No colors to display
+          </p>
+          <p className="text-sm font-semibold text-purple-800 mt-4">
+            🎨 Add a Splash of Color by clicking the + button in the top right
+            corner
           </p>
         </div>
       )}
