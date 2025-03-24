@@ -1,0 +1,22 @@
+{
+  "name": "color-management-app",
+  "version": "1.0.0",
+  "description": "one-page app that manages color definitions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "author": "Nevena Novovic",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

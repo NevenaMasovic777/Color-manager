@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@tailwindcss base;
+
+@layer base {
+  html,
+  body {
+    @apply m-0 p-0 bg-gray-100;
+  }
+
+  input[type="color"] {
+    @apply p-0 w-[150%] h-[150%] -m-[25%];
+  }
+
+  label {
+    @apply block text-sm font-medium text-gray-700;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply w-24 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700;
+  }
+
+  .btn-secondary {
+    @apply w-24 px-4 py-2 bg-gray-400 text-white rounded-md hover:bg-gray-600;
+  }
+
+  .btn-disabled {
+    @apply px-4 py-2 bg-blue-300 text-white rounded-md cursor-not-allowed;
+  }
+}
