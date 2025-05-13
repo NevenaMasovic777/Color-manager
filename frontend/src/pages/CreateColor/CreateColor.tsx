@@ -9,7 +9,7 @@ export default function CreateColor() {
   const { createColor } = useColorStore();
 
   async function onSubmit(data: IColor) {
-    const { success, message } = await createColor(data); //use toast messages
+    const { success, message } = await createColor(data);
     if (success) {
       navigate("/");
       toast.success(message);

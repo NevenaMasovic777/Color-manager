@@ -46,7 +46,7 @@ export const useTextColor = (bgColor: string) => {
       const lightBg = isColorLight(bgColor);
       return lightBg
         ? adjustBrightness(bgColor, 0.2)
-        : adjustBrightness(bgColor, 5);
+        : adjustBrightness(bgColor, 1.5);
     }
   }, [bgColor]);
 };
